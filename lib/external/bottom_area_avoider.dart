@@ -122,7 +122,7 @@ class BottomAreaAvoiderState extends State<BottomAreaAvoider> {
     return AnimatedContainer(
       key: _animationKey,
       color: Colors.transparent,
-      padding: EdgeInsets.only(bottom: widget.areaToAvoid),
+      padding: EdgeInsets.only(bottom: 0),
       duration: widget.duration,
       curve: widget.curve,
       child: child,
